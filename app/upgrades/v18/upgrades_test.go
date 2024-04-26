@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"cosmossdk.io/store/prefix"
 	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

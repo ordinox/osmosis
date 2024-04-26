@@ -17,7 +17,7 @@ import (
 	osmoante "github.com/osmosis-labs/osmosis/v24/ante"
 	v9 "github.com/osmosis-labs/osmosis/v24/app/upgrades/v9"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "cosmossdk.io/store/types"
 
 	smartaccountante "github.com/osmosis-labs/osmosis/v24/x/smart-account/ante"
 	smartaccountkeeper "github.com/osmosis-labs/osmosis/v24/x/smart-account/keeper"

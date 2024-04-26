@@ -40,7 +40,7 @@ import (
 	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v24/x/cosmwasmpool/types"
 	gammtypes "github.com/osmosis-labs/osmosis/v24/x/gamm/types"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "cosmossdk.io/store/types"
 
 	"github.com/osmosis-labs/osmosis/v24/ingest/sqs/service"
 	"github.com/osmosis-labs/osmosis/v24/ingest/sqs/service/writelistener"

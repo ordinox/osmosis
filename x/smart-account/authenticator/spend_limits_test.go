@@ -3,10 +3,11 @@ package authenticator_test
 import (
 	"encoding/json"
 	"fmt"
-	txfeeskeeper "github.com/osmosis-labs/osmosis/v24/x/txfees/keeper"
 	"os"
 	"testing"
 	"time"
+
+	txfeeskeeper "github.com/osmosis-labs/osmosis/v24/x/txfees/keeper"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
@@ -17,7 +18,7 @@ import (
 
 	poolmanagertypes "github.com/osmosis-labs/osmosis/v24/x/poolmanager/types"
 
-	"github.com/cosmos/cosmos-sdk/store/prefix"
+	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 

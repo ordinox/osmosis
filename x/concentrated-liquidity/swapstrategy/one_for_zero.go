@@ -3,15 +3,15 @@ package swapstrategy
 import (
 	"fmt"
 
+	"cosmossdk.io/store/prefix"
 	dbm "github.com/cometbft/cometbft-db"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/v24/x/concentrated-liquidity/math"
 	"github.com/osmosis-labs/osmosis/v24/x/concentrated-liquidity/types"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "cosmossdk.io/store/types"
 )
 
 // oneForZeroStrategy implements the swapStrategy interface.

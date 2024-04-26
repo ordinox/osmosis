@@ -3,7 +3,7 @@ package v25
 import (
 	"github.com/osmosis-labs/osmosis/v24/app/upgrades"
 
-	store "github.com/cosmos/cosmos-sdk/store/types"
+	store "cosmossdk.io/store/types"
 
 	smartaccounttypes "github.com/osmosis-labs/osmosis/v24/x/smart-account/types"
 )

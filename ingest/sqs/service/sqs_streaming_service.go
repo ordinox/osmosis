@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
+	storetypes "cosmossdk.io/store/types"
 	"github.com/armon/go-metrics"
 	"github.com/cometbft/cometbft/abci/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
